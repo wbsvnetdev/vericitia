@@ -7,19 +7,30 @@ span {
 
 /******ID SECTION *****/
 
-
+#testimonials-section {
+  height: 31rem;
+  /* padding-left: 24rem; */
+  padding-top: 7rem;
+  margin-bottom: 7rem;
+  background-color: #dfdfdf;
+}
 
 
 /*****CLASS SECTION *****/
 
+.carousel-item-position {
+  text-align: center;
+}
 
 .header-section {
 background-image: url('../images/home-3.jpeg');
 height: 24rem;
-margin-bottom: 4%;
+margin-bottom: 6%;
 color: #FFF;
 
 }
+
+
 
 .brand-title {
 
@@ -48,23 +59,7 @@ font-family: 'Merriweather', serif;
 }
 
 
-.testimonial-comment {
 
-  text-align: center;
-  width: 28rem;
-  padding-top: 10rem;
-  padding-left: 10rem;
-  font-family: 'Merriweather', serif;
-
-}
-
-.testimonials-section {
-padding-top: 3rem;
-}
-
-.testimonial-pic {
-  margin-left: 6rem;
-}
 
 .feature-card {
   margin : 2% 3% 5% 0;
