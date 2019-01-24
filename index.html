@@ -23,6 +23,11 @@
 
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="css/styles.css">
+
+<!-- Google autcomplete Script -->
+<script type="text/javascript"  src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyClIYEacGZ9_85TUulZzv9sVL_vZedA0Zo"></script>
+<script src="autocomplete.js" charset="utf-8"></script>
+
 </head>
 
 <body>
@@ -68,7 +73,7 @@
             </div>
             <!--end of col-->
             <div class="col">
-              <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Adresse, Arrondissements, Villes, Code Postal">
+              <input id="user_input_autocomplete_address" class="form-control form-control-lg form-control-borderless" type="search" placeholder="Adresse, Arrondissements, Villes, Code Postal">
             </div>
             <!--end of col-->
             <div class="col-auto">
